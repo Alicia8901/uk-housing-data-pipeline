@@ -90,3 +90,11 @@ The final stage of the project involves connecting the processed dataset to Powe
 * Performed cloud-based analytics using BigQuery
 * Prepared data for business intelligence reporting in Power BI
 * Demonstrated modern data engineering workflow using cloud technologies
+
+## Future Improvements ##
+
+* Automate the pipeline using Apache Airflow for scheduled data ingestion and processing. 
+* Implement data quality validation checks using Great Expectations. 
+* Store transformed data in Parquet format to improve storage efficiency and query performance. 
+* Enhance the Power BI dashboard with additional filters and interactive visualisations. 
+* Develop a machine learning model to predict future UK house prices.

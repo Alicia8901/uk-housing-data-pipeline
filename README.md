@@ -141,3 +141,11 @@ Dashboard screenshots can be found in:
 * Exported processed data for reporting
 * Prepared data for business intelligence visualisation using Power BI
 * Demonstrated modern data engineering workflows and cloud technologies
+
+## Future Improvements ##
+
+* Automate the pipeline using Apache Airflow for scheduled data ingestion and processing. 
+* Implement data quality validation checks using Great Expectations. 
+* Store transformed data in Parquet format to improve storage efficiency and query performance. 
+* Enhance the Power BI dashboard with additional filters and interactive visualisations. 
+* Develop a machine learning model to predict future UK house prices.
