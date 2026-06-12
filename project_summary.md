@@ -8,6 +8,7 @@ The dataset contains approximately 90,000 UK housing transactions and includes i
 
 ## Technologies Used ##
 
+* Python
 * PySpark
 * Databricks
 * SQL
