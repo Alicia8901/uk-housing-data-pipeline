@@ -112,6 +112,8 @@ The processed dataset is used to create an interactive dashboard displaying:
 * Property type analysis
 * Key performance indicators (KPIs)
 
+![Power BI Dashboard](dashboards_PowerBI/dashboard_overview.png)
+
 ## Screenshots ##
 
 ### Databricks ###
@@ -132,15 +134,14 @@ Dashboard screenshots can be found in:
 
 `dashboards_powerBI/`
 
-## Key Outcomes ##
+## Key Insights ##
 
-* Built an end-to-end cloud data pipeline
-* Processed and analysed UK housing transaction data
-* Applied data cleaning and transformation using PySpark
-* Performed cloud-based analytics using BigQuery
-* Exported processed data for reporting
-* Prepared data for business intelligence visualisation using Power BI
-* Demonstrated modern data engineering workflows and cloud technologies
+* The average house price across the dataset was approximately **£323.89K**.
+* After data cleaning and duplicate removal, the final dataset contained **89,957 housing transactions**.
+* The **Other (O)** property category recorded the highest average sale price, followed by **Detached (D)** and **Semi-Detached (S)** properties.
+* **Kensington and Chelsea** consistently ranked among the most expensive districts by average property price.
+* Average house prices generally increased between **2015 and 2024**, although some yearly fluctuations were observed.
+* Transaction volumes varied across the analysis period, indicating changing levels of housing market activity over time.
 
 ## Future Improvements ##
 
