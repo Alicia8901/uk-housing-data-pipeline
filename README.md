@@ -6,10 +6,12 @@ This project demonstrates an end-to-end cloud data engineering and analytics pip
 
 The pipeline ingests raw housing data, performs cleaning and transformation using PySpark in Databricks, stores processed data in Google BigQuery, and prepares the data for business intelligence reporting in Power BI.
 
+---
 ## Architecture ##
 
-![Architecture Diagram](architecture_diagram.png)
+<img src="architecture_diagram.png" alt="Architecture Diagram" width="400">
 
+---
 ## Dataset ##
 
 The dataset contains approximately 90,000 UK housing transactions and includes:
@@ -22,6 +24,7 @@ The dataset contains approximately 90,000 UK housing transactions and includes:
 * Freehold/leasehold information
 * Towns and districts
 
+---
 ## Technologies Used ##
 
 * Python
@@ -32,6 +35,7 @@ The dataset contains approximately 90,000 UK housing transactions and includes:
 * Google Cloud Storage
 * Power BI
 
+---
 ## Project Structure ##
 
 | Path | Description |
@@ -51,6 +55,7 @@ The dataset contains approximately 90,000 UK housing transactions and includes:
 | `requirements.txt` | Python dependencies used in the project |
 | `.gitignore` | Files and folders excluded from version control |
 
+---
 ## Data Engineering Workflow ##
 
 ### 1. Data Ingestion ###
@@ -114,6 +119,7 @@ The processed dataset is used to create an interactive dashboard displaying:
 
 ![Power BI Dashboard](dashboards_PowerBI/dashboard_overview.png)
 
+--- 
 ## Screenshots ##
 
 ### Databricks ###
@@ -134,6 +140,7 @@ Dashboard screenshots can be found in:
 
 `dashboards_powerBI/`
 
+---
 ## Key Insights ##
 
 * The average house price across the dataset was approximately **£323.89K**.
@@ -143,6 +150,7 @@ Dashboard screenshots can be found in:
 * Average house prices generally increased between **2015 and 2024**, although some yearly fluctuations were observed.
 * Transaction volumes varied across the analysis period, indicating changing levels of housing market activity over time.
 
+--- 
 ## Future Improvements ##
 
 * Automate the pipeline using Apache Airflow for scheduled data ingestion and processing. 
@@ -150,3 +158,6 @@ Dashboard screenshots can be found in:
 * Store transformed data in Parquet format to improve storage efficiency and query performance. 
 * Enhance the Power BI dashboard with additional filters and interactive visualisations. 
 * Develop a machine learning model to predict future UK house prices.
+
+## Author 
+Omoefe Alicia Osayi
